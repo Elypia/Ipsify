@@ -1,0 +1,37 @@
+{
+  "name": "@elypia/ipsify",
+  "version": "0.0.1",
+  "description": "Convert a text document such as text, markdown, or HTML into meaningless and intentless text. This retains all other information in the document such as layout and attributes but replaces the body with configurable arbitrary text.",
+  "keywords": [
+    "loremipsum",
+    "converter",
+    "document",
+    "cli"
+  ],
+  "license": "Apache-2.0",
+  "author": "Elypia",
+  "homepage": "https://gitlab.com/Elypia/ipsify#readme",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/Elypia/ipsify.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/Elypia/ipsify/issues"
+  },
+  "workspaces": [
+    "packages/@elypia/*"
+  ],
+  "scripts": {
+    "build": "lerna run build",
+    "build:core": "lerna run --scope @elypia/ipsify build",
+    "start:cli": "lerna run --scope @elypia/ipsify-cli start"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.7.0",
+    "@typescript-eslint/parser": "^2.7.0",
+    "lerna": "^3.22.1",
+    "typescript": "~3.9.7",
+    "eslint": "^6.0.0"
+  }
+}

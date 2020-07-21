@@ -1,0 +1,20 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "rules": {
+    "trailing-comma": false,
+    "no-output-on-prefix": true,
+    "no-input-rename": true,
+    "no-output-rename": true,
+    "use-pipe-transform-interface": true,
+    "component-class-suffix": true,
+    "directive-class-suffix": true,
+    "curly": false,
+    "interface-name": false,
+    "quotemark": {
+      "options": "single"
+    }
+  }
+}

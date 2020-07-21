@@ -1,0 +1,46 @@
+{
+  "name": "@elypia/ipsify-cli",
+  "version": "0.0.1",
+  "description": "CLI cliet for Ipsify which can be installed locally to quickly obfuscate any file or arbitrary string.",
+  "keywords": [
+    "loremipsum",
+    "converter",
+    "document",
+    "ipsify",
+    "cli"
+  ],
+  "author": "Seth Falco <seth@elypia.org>",
+  "homepage": "https://gitlab.com/Elypia/ipsify/packages/@elypia/ipsify-cli#readme",
+  "license": "Apache-2.0",
+  "main": "src/index.ts",
+  "directories": {
+    "src": "src"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/Elypia/ipsify.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/Elypia/ipsify/issues"
+  },
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "build": "tsc",
+    "clean": "rm -r dist/",
+    "test": "echo \"testing not configuted for ipsify-cli\""
+  },
+  "dependencies": {
+    "@elypia/ipsify": "*",
+    "commander": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.23",
+    "ts-node": "^8.10.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
