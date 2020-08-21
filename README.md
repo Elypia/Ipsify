@@ -1,4 +1,9 @@
-# Ipsify [![Matrix]][matrix-community] [![Discord]][discord-guild] [![Build]][gitlab] [![Coverage]][gitlab] [![Donate]][elypia-donate]
+<div align="center">
+
+# Ipsify
+[![Matrix]][matrix-community] [![Discord]][discord-guild] [![Build]][gitlab] [![Coverage]][gitlab] [![Donate]][elypia-donate]
+</div>
+
 ## About
 Convert a text document such as `.txt`, `.md`, or `.html` into meaningless and 
 intentless text. This retains all other information in the document such as 

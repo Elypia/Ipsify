@@ -8,7 +8,7 @@ import {Command} from 'commander';
 const program = new Command();
 
 const license: string = `https://gitlab.com/Elypia/ipsify
-Copyright 2020-2020 Elypia CIC
+Copyright 2020-2020 Elypia CIC and Contributors
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
